@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <title>todo</title>
+</head>
+<body>
+    <div class="container">
+    <h3>enter  the title</h3>
+    <input type="text" id="title" placeholder="write the title">
+    <h3>enter  the description</h3>
+    <input type="text" id="description" placeholder="write the description">
+    <button id="submit" onclick="getTodos()">Click me</button>
+    </div>
+</body>
+<script src="index.js" ></script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="getTodos()">
+    <div class="main">
+      <h1>Todo List</h1>
+      <div class="todo-form">
+        Todo Title
+        <input type="text" id="title" />
+        Todo Description
+        <input type="text" id="description" />
+      </div>
+      <button onclick="createTodo()"> Add Todo </button>
+
+      <div id="todo-list">
+        <!-- Skeleton of a TODO Item -->
+        <!-- <div class="todo-item">
+          <span class="todo-item-title">Code</span>
+          <span class="todo-item-description"
+            >Complete Assignment from 7-9PM</span
+          >
+          <div class="todo-item-actions">
+            <button class="todo-edit">Edit</button>
+            <button class="todo-delete">Delete</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
